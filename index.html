@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Home</title>
+</head>
+
+<body>
+      <h1>Olá Sr. Dourado !!!</h1>
+
+      <nav>
+            <Button><a href="tasks">Consultar</a></Button>
+      </nav>
+            <br>
+      <form action="/tasks/" method="GET">
+            <input type="search" name="taskId" placeholder="Pesquisar">
+            <button type="submit">Pesquisar</button>
+      </form>
+            <br>
+      <form action="/tasks" method="POST">
+            <input type="text" name="title" placeholder="Titulo">
+            <input type="text" name="description" placeholder="Descrição">
+            <!-- <input type="submit" value="Cadastrar"> -->
+            <button type="submit">Enviar</button>
+      </form>
+</body>
+
+</html>
